@@ -1,5 +1,5 @@
 const Footer = () => {
-  return <div>Have fun playing with Next.js</div>;
+  return <footer>Have fun playing with Next.js</footer>;
 };
 
 export default Footer;
