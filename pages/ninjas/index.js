@@ -22,11 +22,11 @@ const Ninjas = ({ ninjas }) => {
       </Link>
       <ul>
         {ninjas.map((ninja) => (
-          <div key={ninja.id}>
+          <Link key={ninja.id} href={`/ninjas/${ninja.id}`}>
             <a className={styles.single}>
               <h3>{ninja.name}</h3>
             </a>
-          </div>
+          </Link>
         ))}
       </ul>
     </div>
